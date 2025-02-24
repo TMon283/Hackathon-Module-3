@@ -1,0 +1,482 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", serif;
+}
+
+.landing-page{
+    width: 1440px;
+    height: auto;
+}
+
+/* Header */
+
+.header{
+    background-color: #FEF0E3;
+    height: 111px fixed;
+    border-bottom: 2px solid black;
+    padding: 34px 100px 34px 100px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .header-left{
+    width: 600px;
+    font-size: 24px;
+    line-height: 48px;
+}
+
+.header .header-right{
+    width: 268px;
+    height: 43px;
+    gap: 24px;
+}
+
+.header .header-right a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.header .header-right button{
+    width: 180px;
+    height: 43px;
+    margin-left: 10px;
+    border-radius: 32px;
+    padding: 16px;
+    line-height: 12px;
+    gap: 10px;
+    background-color: black;
+    color: white;
+}
+
+/* Introduction */
+
+.introduction{
+    width: 1440px;
+    height: 910px fixed;
+    background-color: #F9DBC1;
+    display: flex;
+    align-items: center;
+}
+
+.introduction .image{
+    width: 720px;
+    height: 913px;
+    border-left: 2px solid black;
+}
+
+.introduction .header-content{
+    width: 720px;
+    height: 910px fixed;
+    padding: 32px;
+    gap: 50px;
+}
+
+.introduction .header-content .header-text{
+    width: 656px;
+    height: 311px;
+    gap: 60px;
+}
+
+.header-content .header-text .heading{
+    width: 656px;
+    height: 198px;
+    gap: 32px;
+}
+
+.heading h5{
+    width: 476px;
+    height: 117px;
+    font-size: 64px;
+    line-height: 72px;
+    font-weight: 500;
+}
+
+.heading p{
+    width: 656px;
+    height: 49px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.introduction .header-content .content{
+    width: 656px;
+    height: 53px;
+    gap: 42px;
+    display: flex;
+    position: relative;
+    bottom: 60px;
+}
+
+.content .content-left{
+    width: 253px;
+    height: 53px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.content .content-right{
+    width: 253px;
+    height: 53px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.content .number1{
+    width: 82px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    color: #1E2130;
+}
+
+.content .number2{
+    width: 82px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    color: #1E2130;
+}
+
+.content .content-text1{
+    width: 163px;
+    height: 53px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #323232;
+    position: relative;
+    top: 15px;
+}
+
+.content .content-text2{
+    width: 163px;
+    height: 53px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #323232;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+.introduction .header-content .btn-work button{
+    width: 222px;
+    height: 50px;
+    border: 1px 1px 3px 1px solid #000000;
+    border-radius: 32px;
+    padding: 16px;
+    line-height: 12px;
+    gap: 10px;
+    background-color: #AC82FC;
+    color: white;
+}
+
+.introduction .header-content .btn-work p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    bottom: 4px;
+    color: #000000;
+}
+
+/* Work */
+
+.work{
+    width: 1440px fixed;
+    height: 1309px;
+    padding: 32px 64px 32px 64px;
+    gap: 50px;
+    background-color: #C6C2CD;
+}
+
+.work .heading-portfolio{
+    width: 1312px;
+    height: 67px;
+    gap: 50px;
+}
+
+.work .heading-portfolio .portfolio{
+    width: 308px fixed;
+    height: 67px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio h5{
+    width: 99px;
+    height: 17px;
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    align-self: center;
+    color: #36009D;
+}
+
+.portfolio h2{
+    width: 308px;
+    height: 34px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    align-self: center;
+    color: #1E2130;
+}
+
+.work .cards{
+    width: 1312px;
+    height: 1128px;
+    gap: 24px;
+    position: relative;
+    top: 80px;
+}
+
+.cards .card-line1{
+    width: 1312px;
+    height: 552px;
+    gap: 32px;
+    display: flex;
+}
+
+.cards .card-line2{
+    width: 1312px;
+    height: 552px;
+    gap: 32px;
+    display: flex;
+    position: relative;
+    top: 20px;
+}
+
+.cards .card-line1 .card{
+    width: 590px;
+    height: 492px;
+    border-radius: 29px;
+    border: 2px solid #000000;
+    padding: 24px;
+    gap: 16px;
+    background-color: #FFFFFF;  
+}
+
+.cards .card-line2 .card{
+    width: 590px;
+    height: 492px;
+    border-radius: 29px;
+    border: 2px solid #000000;
+    padding: 24px;
+    gap: 16px;
+    background-color: #FFFFFF;  
+}
+
+.card .card-img{
+    width: 592px;
+    height: 377px;
+    border-radius: 16px;
+    border: 1px solid #000000;
+}
+
+.card .card-content{
+    width: 592px;
+    height: 98px;
+    margin-top: 20px;
+}
+
+.card .card-content h4{
+    width: 592px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.card .card-content p{
+    width: 592px;
+    height: 62px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30.6px;
+    letter-spacing: -1%;
+}
+
+/* Contact */
+
+.contact{
+    width: 1440px fixed;
+    height: 396px;
+    border-bottom: 2px solid #000000;
+    padding: 95px 100px 95px 100px;
+    gap: 10px;
+    background-color: #FFD7D4;
+}
+
+.contact .contact-content{
+    width: 1240px;
+    height: 306px;
+    gap: 60px;
+}
+
+.contact .contact-content .contact-text{
+    width: 568px fixed;
+    height: 119px fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-text h2{
+    width: 568px;
+    height: 34px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 63.4px;
+    color: #1E2130;
+}
+
+.contact p{
+    width: 494px;
+    height: 59px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #565656;
+    position: relative;
+    top: 30px;
+}
+
+.contact .contact-link{
+    display: flex;
+    width: 881.78px fixed;
+    height: 90.31px;
+    gap: 52.62px;
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+
+.contact .contact-link .email{
+    width: 308.84px;
+    height: 90.31px;
+    border-radius: 16px;
+    border: 0.71px solid #000000;
+    padding: 17.07px;
+    gap: 8.53px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.email .logo-email{
+    width: 64.71px fixed;
+    height: 56.18px fixed;
+    border-radius: 4.27px;
+    border: 1px solid #000000;
+    padding: 14.93px 19.2px 14.93px 19.2px;
+    gap: 7.11px;
+    background-color: #AC82FC;
+}
+
+.email .email-inf{
+    width: 151.47px fixed;
+    height: 36.98px;
+    gap: 4.98px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .contact-link .call{
+    width: 308.84px;
+    height: 90.31px;
+    border-radius: 16px;
+    border: 0.71px solid #000000;
+    padding: 17.07px;
+    gap: 8.53px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.call .logo-call{
+    width: 64.71px fixed;
+    height: 56.18px fixed;
+    border-radius: 4.27px;
+    border: 1px solid #000000;
+    padding: 14.93px 19.2px 14.93px 19.2px;
+    gap: 7.11px;
+    background-color: #AC82FC;
+}
+
+.call .call-inf{
+    width: 151.47px fixed;
+    height: 36.98px;
+    gap: 4.98px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .contact-link .website{
+    width: 308.84px;
+    height: 90.31px;
+    border-radius: 16px;
+    border: 0.71px solid #000000;
+    padding: 17.07px;
+    gap: 8.53px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.website .logo-website{
+    width: 64.71px fixed;
+    height: 56.18px fixed;
+    border-radius: 4.27px;
+    border: 1px solid #000000;
+    padding: 14.93px 19.2px 14.93px 19.2px;
+    gap: 7.11px;
+    background-color: #AC82FC;
+}
+
+.website .website-inf{
+    width: 151.47px fixed;
+    height: 36.98px;
+    gap: 4.98px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    width: 1440px fixed;
+    height: 31.15px;
+    padding: 30px 565px 30px 565px;
+    gap: 10px;
+    background-color: #000000;
+}
+
+.footer p{
+    width: 340px;
+    height: 11.15px;
+    color: #FFFFFF;
+}
